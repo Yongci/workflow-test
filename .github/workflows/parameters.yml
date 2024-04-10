@@ -38,7 +38,7 @@ jobs:
       #          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 12
 
       - name: ZAP Scan
         uses: zaproxy/action-full-scan@v0.10.0
