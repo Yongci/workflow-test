@@ -60,3 +60,7 @@ jobs:
 #        with:
 #          name: "test"
 #          path: "test.txt"
+
+      - name: "Test"
+        run: |
+          echo "done"
