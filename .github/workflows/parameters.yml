@@ -27,9 +27,7 @@ on:
 
 
 permissions:
-  issues:
-    - write
-    - read
+  issues: write
 
 jobs:
   ShowInputs:
