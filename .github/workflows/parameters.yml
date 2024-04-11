@@ -22,7 +22,9 @@ on:
 
 
 permissions:
-  issues: read|write
+  issues:
+    - write
+    - read
 
 jobs:
   ShowInputs:
